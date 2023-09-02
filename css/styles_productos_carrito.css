@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 80%;
+}
+
+nav a{
+    background-color: #0f2d92;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table{
+    padding: 10px;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+}
+
+main{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    height: fit-content;
+    
+ }
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    height: fit-content;
+}
+
+.tabla-productos{
+    text-align: center;
+}
+
+.header_factura{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.factura{
+    margin-top: 5em;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.table_factura{
+    text-align: center;
+    width: 100%
+}
+
+
+th{
+    padding: 10px;
+}
+
+td{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+
+td h2{
+    
+    text-align: start;
+
+}
+
+.btn-eliminar{
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.btn-eliminar:hover{
+    background-color: rgba(128, 128, 128, .4);
+}
+
+.formulario_pago form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn_realizar_pago{
+    border: none;
+    background-color: #27AE60;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn_realizar_pago:hover{
+    background-color: #146e39;  
+}
+
+.btn_pago{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10em;
+    font-size: 20px;
+}
+
+.input_pago{
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.vuelto{
+    text-align: center;
+}
+
+.volver_inicio{
+    background-color: #0f2d92;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+}

@@ -1,0 +1,48 @@
+*{
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/fondo_principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 40em;
+    height: 30em;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.productos, .administrador{
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+.container a{
+    margin-top: 60px;
+    border: none;
+    background-color: #27AE60;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}

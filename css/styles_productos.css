@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header{
+   background-color: #58D68D;
+   box-shadow: 0px 10px 10px 0px #0B5345;
+   border-radius: 15px;
+   padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #27AE60;
+    padding: 2px 30em;
+    height: 100%;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#contactanos{ 
+   background-color: #0f2d92;
+   font-size: 17px;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 10px;
+   color: white  !important;
+}
+
+#salir_ingreso_productos{
+    background-color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black
+}
+
+main{   
+   display: flex;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   background-color: white;
+   border-radius: 20px;
+}
+
+.products{
+   width: 100%;
+   border-radius: 20px;
+   padding: 10px;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+}
+
+.container{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.info_productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nombre_producto, .descripcion_producto, .precio_producto, .descuento_producto, .btn_guardar, .guardar_datos{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#nombre_prod, #descripcion_prod, #precio_prod, #desc_prod{
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.btn_guardar{
+    border: none;
+    background-color: #27AE60;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
