@@ -39,7 +39,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);//Lo quiero por nombre de columnas
 <body>
     <header>
         <div class="logo">
-                <h3>Supermercado Online ABA</h3>
+                <h3>Supermercado Online ABA alex</h3>
 
             </div>
             <div class = "hora_fecha">
